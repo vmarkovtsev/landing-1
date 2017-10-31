@@ -2,7 +2,7 @@ workspace:
   base: /go
   path: src/github.com/src-d/landing
 
-branches: [master, staging]
+branches: [master, staging, release/*]
 
 pipeline:
 
