@@ -6,6 +6,11 @@ branches: [master, staging]
 
 pipeline:
 
+  clone:
+    image: plugins/git
+    debug: true
+
+
   # build on pull requests
 
   build:
